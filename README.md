@@ -6,5 +6,5 @@
 5. Generate an encryption key for the app: `php artisan key:generate`.
 6. Run migrations: `php artisan migrate`
 7. Add `TRIPTOCARBON_API=https://api.triptocarbon.xyz/v1/footprint` in `.env` file
-8. Run `php artisan serve` and open `http://127.0.0.1:8000` in your browser
+8. Run `php artisan serve` and run api in browser. For e.g. `http://127.0.0.1:8000/api/carbonfootprint?activity=10&activity_type=miles&country=usa&mode=bus` in your browser
 9. You are now good to go.
