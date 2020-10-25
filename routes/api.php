@@ -15,4 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('carbonfootprint', 'CarbonFootprintController@show');
+
+Route::get('carbonfootprint', 'CarbonFootprintController@show')->name('show.carbonfootprint');

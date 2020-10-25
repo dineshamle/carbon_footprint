@@ -8,3 +8,7 @@
 7. Add `TRIPTOCARBON_API=https://api.triptocarbon.xyz/v1/footprint` in `.env` file
 8. Run `php artisan serve` and run api in browser. For e.g. `http://127.0.0.1:8000/api/carbonfootprint?activity=10&activity_type=miles&country=usa&mode=bus` in your browser
 9. You are now good to go.
+
+## Testing instructions
+1. Install `sqlite` and its PHP driver (as per your PHP version) on your device.
+2. On command line, go to your application directory and run `vendor/bin/phpunit`
